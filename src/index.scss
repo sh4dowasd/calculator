@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Geometria';
+  src: local('Geometria Regular'), local('Geometria-Regular'),
+  url('./fonts/Geometria-Regular.woff2') format('woff2'),
+  url('./fonts/Geometria-Regular.woff') format('woff'),
+  url('./fonts/Geometria-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geometria';
+  src: local('Geometria Bold'), local('Geometria-Bold'),
+  url('./fonts/Geometria-Bold.woff2') format('woff2'),
+  url('./fonts/Geometria-Bold.woff') format('woff'),
+  url('./fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ff8888;
+}
+p, button {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 88px;
+  color: #F2F2F2;
+}
